@@ -1138,7 +1138,7 @@ jobs:
       - build-macos-qt6
     steps:
       - uses: actions/checkout@v1.2.0
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4.1.7
         with:
           path: uploads
       - name: Install SSH keys
